@@ -315,11 +315,15 @@ footer a {
         padding-bottom: 50px;
     }
     /*skills*/
-    #skils-section {
+    #skills-section {
         margin-top: -35px;
         width: 90%;
     }
     #skill-section .container {
         flex-direction: column;
+    }
+
+    #skills-container h3, #skills-container .subtitle{
+        font-size: 1.3rem;
     }
 }
