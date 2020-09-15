@@ -313,5 +313,18 @@ footer a {
         width: auto;
     }
 
-    
+    /*about*/
+
+    #about-section{
+        padding: 2rem;
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    /*skills*/
+
+    #skils-section{
+        margin-top: -35px;
+        width: 90%;
+    }
 }
