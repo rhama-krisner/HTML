@@ -147,7 +147,7 @@ h2{
     border-left: 1px solid #ccc;
     border-right: 1px solid #ccc;
 }
-.skills-container{
+.skills-container h3{
     color: #ed1e24;
     font-size: 20px;
 }
