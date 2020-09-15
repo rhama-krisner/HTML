@@ -1,76 +1,75 @@
-
 /*Geral*/
-body, p, h1, h2, input, textarea{
+
+body, p, h1, h2, input, textarea {
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    
 }
 
-body{
+body {
     background-color: rgb(40, 42, 54);
 }
 
-h2{
+h2 {
     font-size: 30px;
 }
 
 /*navbar*/
-#navbar{
+
+#navbar {
     background-color: #ed1e24;
     color: #fff;
     padding: 0 15px;
     height: 60px;
 }
 
-#navbar h2, #navbar ul, #navbar-list li, #navbar nav{
+#navbar h2, #navbar ul, #navbar-list li, #navbar nav {
     display: inline-block;
-    
 }
 
-#navbar h2{
+#navbar h2 {
     margin: 0;
     line-height: 60px;
     margin-left: 55px;
 }
 
-#navbar img{
+#navbar img {
     height: 40px;
     transform: rotate(45deg);
     position: absolute;
     top: 10px;
 }
 
-#navbar nav{
+#navbar nav {
     float: right;
 }
 
-#navbar ul{
+#navbar ul {
     margin-top: 22px;
 }
 
-#navbar li{
+#navbar li {
     margin: 0 10px;
 }
 
-#navbar-list li a{
+#navbar-list li a {
     text-decoration: none;
     color: #fff;
 }
 
-#navbar-list li a:hover{
+#navbar-list li a:hover {
     border-bottom: 1px solid #fff;
 }
 
 /*banner*/
 
-#main-banner{
+#main-banner {
     height: 70vh;
-    background-image:url('../img/bg-projeto.jpg');
+    background-image: url('../img/bg-projeto.jpg');
     background-size: cover;
     padding-top: 15vh;
 }
 
-#banner-info{
+#banner-info {
     width: 40%;
     margin-right: auto;
     margin-left: auto;
@@ -79,7 +78,7 @@ h2{
     padding: 50px;
 }
 
-#banner-info img{
+#banner-info img {
     height: 120px;
     border-radius: 50%;
     background-color: #ed1e24;
@@ -87,32 +86,30 @@ h2{
     margin-bottom: 30px;
 }
 
-#banner-info p{
+#banner-info p {
     background-color: #ed1e24;
     font-weight: bold;
     width: 200px;
     margin-left: auto;
     margin-right: auto;
     padding: 15px;
-
 }
 
 /*Sobre*/
 
-#about-section{
+#about-section {
     text-align: center;
     background-color: #ed1e24;
     color: #fff;
     padding: 50px;
     height: 350px;
-
 }
 
-#about-section h2{
-    margin-bottom: 20px;   
+#about-section h2 {
+    margin-bottom: 20px;
 }
 
-#about-section p{
+#about-section p {
     max-width: 650px;
     margin-left: auto;
     margin-right: auto;
@@ -121,7 +118,7 @@ h2{
 
 /*Habilidades*/
 
-#skills-section{
+#skills-section {
     margin-top: -100px;
     background-color: #fff;
     width: 80%;
@@ -131,28 +128,29 @@ h2{
     border-radius: 10px;
 }
 
-#skills-section .container{
+#skills-section .container {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.skills-container{
+.skills-container {
     flex: 1 1 1;
     text-align: center;
     padding: 60px 25px;
 }
 
-.central{
+.central {
     border-left: 1px solid #ccc;
     border-right: 1px solid #ccc;
 }
-.skills-container h3{
+
+.skills-container h3 {
     color: #ed1e24;
     font-size: 20px;
 }
 
-.skills-container img{
+.skills-container img {
     height: 60px;
     padding: 15px;
     margin-bottom: 25px;
@@ -160,44 +158,42 @@ h2{
     border-left: 1px solid #ed1e24;
     border-right: 4px solid #ed1e24;
     border-bottom: 4px solid #ed1e24;
-
 }
 
-.skills-container .subtitle{
-   font-weight: bold; 
-   color: #ed1e24;
-   margin-top: 50px;
-   margin-bottom: 15px;
+.skills-container .subtitle {
+    font-weight: bold;
+    color: #ed1e24;
+    margin-top: 50px;
+    margin-bottom: 15px;
 }
 
-.skills-container p{
+.skills-container p {
     line-height: 25px;
 }
 
 /*Jobs*/
 
-#jobs-section{
+#jobs-section {
     text-align: center;
     padding-top: 50px;
-
 }
 
-#jobs-section h2{
+#jobs-section h2 {
     color: #ed1e24;
     margin-bottom: 30px;
 }
 
-#jobs-section p{
+#jobs-section p {
     color: #ccc;
     margin-bottom: 50px;
 }
 
-#jobs-section a{
+#jobs-section a {
     font-weight: bold;
     color: #ed1e24;
 }
 
-.job-container{
+.job-container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -207,7 +203,7 @@ h2{
     margin-bottom: 50px;
 }
 
-.job-box{
+.job-box {
     flex: 1 1 200px;
     margin-left: 25px;
     margin-right: 25px;
@@ -215,97 +211,88 @@ h2{
     background-size: cover;
     border-right: 2px solid #ed1e24;
     border-bottom: 2px solid #ed1e24;
-
 }
 
-.proj1{
+.proj1 {
     background-image: url(../img/proj1.jpg);
 }
 
-.proj2{
+.proj2 {
     background-image: url(../img/proj2.jpg);
-
 }
 
-.proj3{
+.proj3 {
     background-image: url(../img/proj3.jpg);
-
 }
 
-.proj4{
+.proj4 {
     background-image: url(../img/proj4.jpg);
 }
 
-.proj5{
+.proj5 {
     background-image: url(../img/proj5.jpg);
-
 }
 
-.proj6{
+.proj6 {
     background-image: url(../img/proj6.jpg);
 }
 
 /*Footer*/
 
-footer{
+footer {
     padding: 50px 0;
     background-color: #ed1e24;
     color: #fff;
     text-align: center;
 }
 
-footer img{
+footer img {
     height: 50px;
     margin: 30px 0;
 }
 
-footer p{
+footer p {
     margin-top: 25px;
 }
 
-footer form{
+footer form {
     width: 400px;
     margin-left: auto;
     margin-right: auto;
 }
 
-footer input, footer textarea{
+footer input, footer textarea {
     border: none;
     padding: 15px;
     box-sizing: border-box;
     margin-bottom: 20px;
     width: 100%;
     display: block;
-
 }
 
-footer .detail{
+footer .detail {
     font-weight: bold;
 }
 
-footer a{
+footer a {
     color: #fff;
 }
 
 /*Celular*/
-@media (max-width: 450px){
+
+@media (max-width: 450px) {
     /*Geral*/
-    p, input, textarea, #navbar-list li a{
+    p, input, textarea, #navbar-list li a {
         font-size: 1.2rem;
     }
-
     /*nav bar*/
-    #navbar h2{
+    #navbar h2 {
         display: none;
     }
-
-    #navbar img{
+    #navbar img {
         top: 9px;
     }
-
-    #navbar ul{
+    #navbar ul {
         margin-top: 1.1rem;
     }
-
-    
 }
