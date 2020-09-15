@@ -163,6 +163,83 @@ h2{
 
 }
 
-.skills-container subtitle{
-    
+.skills-container .subtitle{
+   font-weight: bold; 
+   color: #ed1e24;
+   margin-top: 50px;
+   margin-bottom: 15px;
+}
+
+.skills-container p{
+    line-height: 25px;
+}
+
+/*Jobs*/
+
+#jobs-section{
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+#jobs-section h2{
+    color: #ed1e24;
+    margin-bottom: 30px;
+}
+
+#jobs-section p{
+    margin-bottom: 50px;
+}
+
+#jobs-section a{
+    font-weight: bold;
+    color: #ed1e24;
+}
+
+.job-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.job-box{
+    flex: 1 1 200px;
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 300px;
+    background-size: cover;
+    border-right: 2px solid #ed1e24;
+    border-bottom: 2px solid #ed1e24;
+
+}
+
+.proj1{
+    background-image: url(../img/proj1.jpg);
+}
+
+.proj2{
+    background-image: url(../img/proj2.jpg);
+
+}
+
+.proj3{
+    background-image: url(../img/proj3.jpg);
+
+}
+
+.proj4{
+    background-image: url(../img/proj4.jpg);
+}
+
+.proj5{
+    background-image: url(../img/proj5.jpg);
+
+}
+
+.proj6{
+    background-image: url(../img/proj6.jpg);
 }
